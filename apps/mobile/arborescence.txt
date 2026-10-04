@@ -1,0 +1,71 @@
+Structure du dossier pour le volume Acer
+Le numéro de série du volume est 000001A0 D616:D87D
+C:\USERS\ROCHE\DOCUMENTS\PROJETS\LIVRAISON-CAMEROUN\APPS\MOBILE\LIB
+¦   main.dart
+¦   
++---models
+¦       commerce.dart
+¦       panier_item.dart
+¦       produit.dart
+¦       utilisateur.dart
+¦       ville.dart
+¦       
++---providers
+¦       auth_provider.dart
+¦       
++---screens
+¦   ¦   commerces_page.dart
+¦   ¦   home_page.dart
+¦   ¦   main_navigation.dart
+¦   ¦   main_page.dart
+¦   ¦   orders_page.dart
+¦   ¦   panier_page.dart
+¦   ¦   produits_page.dart
+¦   ¦   profile_page.dart
+¦   ¦   search_page.dart
+¦   ¦   splash_page.dart
+¦   ¦   
+¦   +---auth
+¦   ¦       login_page.dart
+¦   ¦       
+¦   +---orders
+¦   ¦       mes_commandes_page.dart
+¦   ¦       
+¦   +---profile
+¦   ¦       profile_page.dart
+¦   ¦       
+¦   +---search
+¦           search_page.dart
+¦           
++---services
+¦       auth_service.dart
+¦       commande_service.dart
+¦       commerce_service.dart
+¦       panier_service.dart
+¦       produit_service.dart
+¦       ville_service.dart
+¦       
++---theme
+¦       app_colors.dart
+¦       app_theme.dart
+¦       
++---widgets
+    ¦   categorie_card.dart
+    ¦   panier_badge.dart
+    ¦   panier_item_card.dart
+    ¦   produit_card.dart
+    ¦   ville_card.dart
+    ¦   
+    +---buttons
+    ¦       primary_button.dart
+    ¦       
+    +---cards
+    ¦       commerce_card.dart
+    ¦       promotion_card.dart
+    ¦       
+    +---home
+            category_section.dart
+            home_header.dart
+            promo_banner.dart
+            search_bar_widget.dart
+            
